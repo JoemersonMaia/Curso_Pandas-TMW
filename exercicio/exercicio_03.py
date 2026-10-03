@@ -11,17 +11,56 @@ import pandas as pd
 
 clientes = pd.read_csv("../data/clientes.csv", sep = ";")
 clientes.shape
+
+# %%
 clientes.info()
 
-filtro_int = clientes.select_dtypes(include = 'int64')
-filtro_obj = clientes.select_dtypes(include = 'object')
+# %%
+import pandas as pd 
 
-filtro_obj
+transacoes = pd.read_csv("../data/transacoes.csv", sep = ";")
+
+filtro_int = transacoes.select_dtypes("int64")
+filtro_obj = transacoes.select_dtypes("object")
+filtro_obj.info()
+filtro_int.info()
 
 # %%
 
 clientes.iloc[3]
 
 # %%
-posicao = clientes.iloc[9]
-clientes.sort_values(by="idCliente")
+clientes.sort_values(by = ["qtdePontos"], ascending=[False]).head(5)
+
+## 03.06 - Quantas linhas há no arquivo transacoes.csv ?
+
+## 03.07 - Quantas colunas há no arquivo produtos.csv ?
+
+## 03.08 - Quantas colunas do tipo float64 há no arquivo clientes.csv ?
+
+## 03.09 - Qual o nome da primeira coluna do arquivo clientes.csv ?
+
+## 03.10 - Qual o nome da última coluna do arquivo produtos.csv ?
+
+## 03.11 - Qual o id do produto que está no índice 5 no arquivo produtos.csv ?
+
+## 03.12 - Qual o nome do cliente que está na 8ª posição
+##         (sem ordenar) do arquivo clientes.csv ?
+
+## 03.13 - Qual o preço do produto que está na 12ª posição
+##         (sem ordenar) do arquivo produtos.csv ?
+
+## 03.14 - Qual o saldo de pontos do cliente que está no índice 15
+##         no arquivo clientes.csv ?
+
+## 03.15 - Quantas colunas do tipo object há no arquivo transacoes.csv ?
+
+
+# %%
+
+## 03.06 - Quantas linhas há no arquivo transacoes.csv ?
+
+import pandas as pd
+
+transacoes = pd.read_csv("../data/transacoes.py")
+transacoes.shape

@@ -27,6 +27,6 @@ transacoes = pd.read_csv("../data/transacoes.csv", sep = ";")
 
 transacoes["DtCriacao"] = pd.to_datetime(transacoes["DtCriacao"])
 transacoes["DtCriacao"] = transacoes["DtCriacao"].dt.date
-filtro_data = transacoes["DtCriacao"] == '2025-09-17'
+filtro_data = transacoes["DtCriacao"] == pd.to_datetime("2025-09-17").date()
 
 transacoes[filtro_data]
