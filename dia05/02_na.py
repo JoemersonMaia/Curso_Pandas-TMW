@@ -7,8 +7,8 @@ clientes
 
  # %%
 
-clientes = clientes.dropna(how = "all", subset=["qtdepontos"])
-clientes = clientes.dropna(how = "any", subset=["qtdepontos", "DtCriacao"])
+clientes = clientes.dropna(how = "all", subset=["qtdePontos"])
+clientes = clientes.dropna(how = "any", subset=["qtdePontos", "DtCriacao"])
 
 clientes
 

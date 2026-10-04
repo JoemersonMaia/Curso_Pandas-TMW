@@ -38,7 +38,7 @@ df["qtdePontos"].describe()
 
 df["logPontots"] = np.log(df["qtdePontos"]+ 1)
 df["logPontots"].describe()
-
+df
 # %%
 
 import matplotlib.pyplot as plt
