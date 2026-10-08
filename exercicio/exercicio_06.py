@@ -117,7 +117,7 @@ summary = transacoes.agg({
 })
 
 transacoes_dia = summary["IdTransacao"] /summary["DtDia"]
-
+transacoes_dia
 
 
 
@@ -160,3 +160,14 @@ df_full = df_full[df_full["DescNomeProduto"] == "Presença Streak"]
                                     .sort_values(ascending = False)
                                     .head()
                                     )
+
+# %%
+##06.06 - Como podemos calcular as estatísticas descritivas dos 
+# pontos das transações de cada usuário?
+
+import pandas as pd
+
+transacoes = pd.read_csv("../data/transacoes.csv", sep = ";")
+(transacoes.groupby(by = "IdCliente")["QtdePontos"]
+                                     .describe()
+                                     )
