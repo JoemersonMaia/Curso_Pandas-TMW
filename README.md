@@ -1,64 +1,82 @@
-# Pandas 2025
+# 🐼 Curso de Pandas com Python
 
-Curso renovado de Pandas realizado ao vivo de form gratuita, com gravação disponível no [YouTube](youtube.com/@teomewhy).
+Curso **gratuito de Pandas com Python**, ministrado por **Téo Me Why**, com aulas ao vivo e gravações disponíveis no YouTube. O treinamento é voltado para quem deseja aprender a manipular, transformar e analisar dados utilizando a biblioteca Pandas.
 
-## Pré-requisito
+O Pandas é uma das principais bibliotecas do Python para análise de dados, permitindo trabalhar com tabelas, arquivos CSV, Excel, Parquet e bancos de dados SQL de forma prática e eficiente.
 
-- Ter Python instalado. Sugestão de vídeo para instalação, [clique aqui](https://youtu.be/OeKzVjiiRm4?si=PT0v4LwNE9SUL-2m).
-- Python Básico: sintaxe da linguagem e lógica de programação. [Conheça mais aqui](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSpRkqnR0p2A-eaVlpLnN3D).
+A ideia principal deste curso é desenvolver uma base sólida em **manipulação e análise de dados com Pandas**, passando pelos principais objetos da biblioteca, importação de arquivos, filtros, transformações, agregações, cruzamento de dados e integração com bancos de dados.
 
-## Material de apoio
+## 📚 Conteúdo do Curso
 
-Temos um material de apoio para nosso treinamento, contendo algumas orientações e exercícios. [Confira aqui](https://docs.google.com/presentation/d/10_lCOieWozst3t2ldGaY78vxh4mOGkplHqXBQ7M3eDo/edit?usp=sharing).
+| **Módulo** | **Tema** |
+| ------------ | ------------------- |
+| 01 | Principais Objetos do Pandas |
+| 02 | Importação de Arquivos |
+| 03 | Navegação pelos Dados |
+| 04 | Filtragem de Dados |
+| 05 | Transformações e Remoções |
+| 06 | GroupBy e Agregações |
+| 07 | Cruzamento de Dados |
+| 08 | Manipulações Adicionais |
+| 09 | Conexão com Bancos de Dados SQL |
 
-## Dados
+### Detalhamento dos conteúdos
 
-Utilizaremos dados reais durante o nosso curso. Acesse os [dados aqui](https://www.kaggle.com/datasets/teocalvo/teomewhy-loyalty-system).
+- **Principais objetos do Pandas:** Series e DataFrames.
+- **Importação de arquivos:** CSV, XLSX e Parquet.
+- **Navegação pelos dados:** informações básicas, tipos de colunas, seleção de linhas e colunas e renomeação.
+- **Filtragem de dados:** aplicação de condições lógicas.
+- **Transformações e remoções:** criação de colunas, ordenação, conversão de tipos, aplicação de funções, remoção de duplicatas e tratamento de valores ausentes (NAs).
+- **GroupBy:** agregações, método `agg` e agregações personalizadas.
+- **Cruzamento de dados:** `merge` e `concat`.
+- **Manipulações adicionais:** `stack`, `unstack`, `pivot_table` e `explode`.
+- **Conexão com bancos SQL:** importação de dados, execução de consultas e escrita de dados.
 
-## Ementa
+## 🎯 Objetivo
 
-1. Principais objetos do Pandas
-    - Series
-    - Dataframes
+Desenvolver conhecimentos práticos em manipulação e análise de dados utilizando Pandas, aplicando os conceitos estudados em exercícios e atividades práticas.
 
-2. Importando arquivos com pandas
-    - csv; xlsx; parquet
+Ao longo do curso, foram trabalhados os seguintes conhecimentos:
 
-3. Navegando pelos dados:
-    - Informações básicas
-    - Tipos de colunas
-    - Navegação em linhas e colunas
-    - Renomeando colunas
+- Manipulação de dados com Pandas.
+- Criação e utilização de Series e DataFrames.
+- Leitura de arquivos CSV, Excel e Parquet.
+- Seleção, filtragem e ordenação de dados.
+- Criação e transformação de colunas.
+- Conversão de tipos de dados.
+- Tratamento de valores ausentes e duplicatas.
+- Agrupamentos e agregações com `groupby`.
+- Cruzamento de tabelas com `merge` e `concat`.
+- Reorganização de dados com `stack`, `unstack` e `pivot_table`.
+- Manipulação de dados com `explode`.
+- Integração do Pandas com bancos de dados SQL.
 
-4. Filtrando dados
-    - Condições lógicas
+## 📊 Dados utilizados
 
-5. Transformações e remoções
-    - Criação de novas colunas
-    - Ordenação
-    - Conversão de tipos
-    - Aplicando funções em linhas e colunas
-    - Removendo Duplicatas
-    - Trabalhando com NAs
+Durante o curso, foram utilizados dados reais do **Loyalty System**, disponibilizados por **Téo Me Why** no Kaggle.
 
-6. GroupBy
-    - Agregando dados
-    - O método agg
-    - Agregações personalizadas
-  
-7. Cruzamento de dados
-    - Merge
-    - Concat
+**Dataset:**
 
-8. Manipulações adicionais
-    - Stack
-    - Unstack
-    - Pivot Table
-    - Explode
+https://www.kaggle.com/datasets/teocalvo/teomewhy-loyalty-system
 
-9. Conectando com Bancos SQL
-    - Importando dados
-    - Executando Queries
-    - Escrevendo dados
+## 📖 Materiais de apoio
 
+- **Curso e gravações:** [YouTube — Téo Me Why](https://www.youtube.com/@teomewhy)
+- **Material de apoio e exercícios:** [Acessar apresentação](https://docs.google.com/presentation/d/10_lCOieWozst3t2ldGaY78vxh4mOGkplHqXBQ7M3eDo/edit?usp=sharing)
+- **Dataset do curso:** [Kaggle — Loyalty System](https://www.kaggle.com/datasets/teocalvo/teomewhy-loyalty-system)
+- **Instalação do Python:** [Assistir ao vídeo](https://youtu.be/OeKzVjiiRm4?si=PT0v4LwNE9SUL-2m)
+- **Python básico:** [Playlist de lógica e programação](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSpRkqnR0p2A-eaVlpLnN3D)
 
+## 🙏 Créditos
+
+Curso ministrado por **Téo Me Why**, com conteúdo gratuito disponibilizado no YouTube.
+
+Dados disponibilizados por **Téo Me Why** através do Kaggle.
+
+Este repositório reúne meus estudos, códigos e exercícios desenvolvidos durante o curso, servindo também como registro da minha evolução no aprendizado de Python e análise de dados.
+
+## 📌 Status
+
+✅ **Curso concluído** — este repositório reúne minhas anotações, códigos e exercícios realizados ao longo do curso de Pandas com Python, ministrado por **Téo Me Why**.
+
+Mais uma etapa concluída na minha jornada de aprendizado em Python e análise de dados!
