@@ -10,44 +10,44 @@ A ideia principal deste curso é fornecer uma base sólida sobre **manipulação
 
 | **Módulo** | **Tema** |
 | ---------- | -------- |
-| 1 | Principais objetos do Pandas |
-| 1.1 | Series |
-| 1.2 | DataFrames |
-| 2 | Importando arquivos com Pandas |
-| 2.1 | CSV |
-| 2.2 | XLSX |
-| 2.3 | Parquet |
-| 3 | Navegando pelos dados |
-| 3.1 | Informações básicas |
-| 3.2 | Tipos de colunas |
-| 3.3 | Navegação em linhas e colunas |
-| 3.4 | Renomeando colunas |
-| 4 | Filtrando dados |
-| 4.1 | Condições lógicas |
-| 5 | Transformações e remoções |
-| 5.1 | Criação de novas colunas |
-| 5.2 | Ordenação |
-| 5.3 | Conversão de tipos |
-| 5.4 | Aplicando funções em linhas e colunas |
-| 5.5 | Removendo duplicatas |
-| 5.6 | Trabalhando com NAs |
-| 5.7 | Replace |
-| 6 | GroupBy |
-| 6.1 | Agregando dados |
-| 6.2 | O método `agg` |
-| 6.3 | Agregações personalizadas |
-| 7 | Cruzamento de dados |
-| 7.1 | Merge |
-| 7.2 | Concat |
-| 8 | Manipulações adicionais |
-| 8.1 | Stack |
-| 8.2 | Unstack |
-| 8.3 | Pivot Table |
-| 8.4 | Explode |
-| 9 | Conectando com bancos SQL |
-| 9.1 | Importando dados |
-| 9.2 | Executando Queries |
-| 9.3 | Escrevendo dados |
+| **1** | **Principais objetos do Pandas** |
+| ↳ 1.1 | Series |
+| ↳ 1.2 | DataFrames |
+| **2** | **Importando arquivos com Pandas** |
+| ↳ 2.1 | CSV |
+| ↳ 2.2 | XLSX |
+| ↳ 2.3 | Parquet |
+| **3** | **Navegando pelos dados** |
+| ↳ 3.1 | Informações básicas |
+| ↳ 3.2 | Tipos de colunas |
+| ↳ 3.3 | Navegação em linhas e colunas |
+| ↳ 3.4 | Renomeando colunas |
+| **4** | **Filtrando dados** |
+| ↳ 4.1 | Condições lógicas |
+| **5** | **Transformações e remoções** |
+| ↳ 5.1 | Criação de novas colunas |
+| ↳ 5.2 | Ordenação |
+| ↳ 5.3 | Conversão de tipos |
+| ↳ 5.4 | Aplicando funções em linhas e colunas |
+| ↳ 5.5 | Removendo duplicatas |
+| ↳ 5.6 | Trabalhando com NAs |
+| ↳ 5.7 | Replace |
+| **6** | **GroupBy** |
+| ↳ 6.1 | Agregando dados |
+| ↳ 6.2 | O método `agg` |
+| ↳ 6.3 | Agregações personalizadas |
+| **7** | **Cruzamento de dados** |
+| ↳ 7.1 | Merge |
+| ↳ 7.2 | Concat |
+| **8** | **Manipulações adicionais** |
+| ↳ 8.1 | Stack |
+| ↳ 8.2 | Unstack |
+| ↳ 8.3 | Pivot Table |
+| ↳ 8.4 | Explode |
+| **9** | **Conectando com bancos SQL** |
+| ↳ 9.1 | Importando dados |
+| ↳ 9.2 | Executando Queries |
+| ↳ 9.3 | Escrevendo dados |
 
 ## 🎯 Objetivo
 
@@ -74,6 +74,8 @@ Ao final deste curso, foram desenvolvidos conhecimentos práticos em:
 ## 📁 Estrutura do repositório
 
 Este repositório reúne minhas anotações, códigos e exercícios desenvolvidos durante o treinamento, organizados conforme os conteúdos estudados.
+
+O projeto contempla scripts Python, conjuntos de dados utilizados nas atividades e práticas de manipulação e análise de dados.
 
 ## 📖 Informações oficiais do curso
 
